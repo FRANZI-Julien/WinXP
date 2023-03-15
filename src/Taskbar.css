@@ -1,0 +1,170 @@
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    height: 43px;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        hsl(222deg 68% 11%) 0%,
+        hsl(218deg 80% 26%) 4%,
+        hsl(220deg 75% 45%) 14%,
+        hsl(221deg 71% 47%) 58%,
+        hsl(221deg 70% 44%) 81%,
+        hsl(223deg 51% 52%) 90%,
+        hsl(223deg 59% 69%) 95%,
+        hsl(222deg 47% 73%) 97%,
+        hsl(225deg 26% 42%) 99%,
+        hsl(221deg 74% 14%) 100%
+      );
+  }
+  
+  .taskbar .icons-left {
+    height: 43px;
+    display: inline-block;
+  }
+  
+  .taskbar .icons-left #start-menu {
+    height: 43px;
+    width: 49px;
+    background-image: url(./assets/image/kisspng-windows-xp-logo-microsoft-windows-1-0-windows-logos-5ab719fdd15b24.0641833615219491818575.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+  }
+  .taskbar button {
+    font-family: 'Franklin Gothic Medium Italic', arial, sans-serif;
+    color: #fff;
+    }
+
+  .taskbar .icons-left #tabs-windows {
+    height: 43px;
+    width: 49px;
+    background-image: url("https://raw.githubusercontent.com/gcazin/pure-css-windows-10-desktop/master/icons/switch-window.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px 25px;
+  }
+  
+  .taskbar .icons-left #tabs-windows:hover {
+    height: 43px;
+    width: 49px;
+    background-image: url("https://image.noelshack.com/fichiers/2018/18/5/1525467821-tabs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+    background-size: 28px 15px;
+  }
+  
+  .taskbar .icons-left a {
+    display: table-cell;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .taskbar .icons-left a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .taskbar .icons-left a:not(:first-child) {
+    margin-left: -4px;
+  }
+  
+  .taskbar .icons-left a.border:focus {
+    border-bottom: 2px solid rgba(245, 245, 245, 0.651);
+  }
+  
+  .taskbar .icons-left .px {
+    width: 1px;
+  }
+  
+  .taskbar .icons-left .px a {
+    pointer-events: none;
+  }
+  
+  .taskbar .icons-right {
+    height: 43px;
+    float: right;
+  }
+  
+  .taskbar .icons-right #wifi {
+    height: 43px;
+    width: 49px;
+    background-image: url("https://raw.githubusercontent.com/gcazin/pure-css-windows-10-desktop/master/icons/wifi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+  }
+  
+  .taskbar .icons-right #sound {
+    height: 43px;
+    width: 49px;
+    background-image: url("https://raw.githubusercontent.com/gcazin/pure-css-windows-10-desktop/master/icons/volume.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+  }
+  
+  .taskbar .icons-right #return {
+    width: 4px;
+    border-left: 1px solid grey;
+  }
+  
+  .taskbar .icons-right #notifications, .taskbar .icons-right #up {
+    height: 43px;
+    width: 42px;
+    position: relative;
+  }
+  
+  .taskbar .icons-right #notifications i, .taskbar .icons-right #up i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: white;
+  }
+  
+  .taskbar .icons-right .clear {
+    height: 43px;
+    width: 7px;
+    display: table-cell;
+  }
+  
+  .taskbar .icons-right .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  
+  .taskbar .icons-right .datetime {
+    display: table-cell;
+    width: 70px !important;
+    cursor: pointer;
+    padding-top: 3px;
+  }
+  
+  .taskbar .icons-right .datetime span {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 11.3px;
+    color: white;
+  }
+  
+  .taskbar .icons-right .datetime:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .taskbar .icons-right a {
+    display: table-cell;
+  }
+  
+  .taskbar .icons-right a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .taskbar .icons-right a:not(:first-child) {
+    margin-left: -4px;
+  }
+  
+  .taskbar .icons-right .small-icons {
+    width: 24px !important;
+  }

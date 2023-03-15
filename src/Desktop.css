@@ -1,0 +1,113 @@
+
+.desktop {
+    height: 100vh;
+    background: url(./assets/windows_xp_4k_wallpaper_by_karara160_dedrkmt-fullview.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .desktop {
+    display: flex;
+  }
+  
+  .desktop .icon-desktop {
+    padding: 4px 8px 4px 8px;
+    border: 2px solid transparent;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .desktop .icon-desktop a {
+    display: block;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .desktop .icon-desktop img {
+    height: 48px;
+    width: 48px;
+  }
+  
+  
+  .desktop .icon-desktop span {
+    display: block;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .desktop .icon-desktop:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .desktop .icon-desktop:first-child {
+    margin-top: 5px;
+  }
+  
+  .desktop #sound-modal {
+    background: #005a9e;
+    position: absolute;
+    right: 0;
+    bottom: 43px;
+    height: 100px;
+    width: 380px;
+    visibility: hidden;
+  }
+  
+  .desktop #sound-modal i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: -20px !important;
+    color: whitesmoke;
+  }
+  
+  .desktop #sound-modal span.data-value {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    color: whitesmoke;
+  }
+  
+  .desktop #sound-modal .sound-text {
+    text-align: center;
+    margin-top: 15px;
+    color: whitesmoke;
+  }
+  
+  .desktop #sound-modal .sound-progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+  }
+  
+  .desktop #sound-modal .sound-progress .bar-sound {
+    width: 230px;
+    height: 5px;
+    background: linear-gradient(to right, #2989d8 0%, #2989d8 50%, grey 51%, grey 51%);
+  }
+  
+  .desktop #sound-modal .sound-progress .bar-sound-drag {
+    height: 20px;
+    width: 7px;
+    background: #0078d7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+  }
+  
+  .desktop #sound-modal:target {
+    visibility: visible;
+    animation-name: open-height;
+    animation-duration: 0.1s;
+    transition: 0.1s;
+  }
+
+  
